@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<identityform>
+	
+	<property required="true" name="displayName" type="text" defaultvalue="" calculatedvalue="" class="inputField">
+		<hint>Please type here the Display Name</hint>
+		<label>Display Name</label>
+	</property>
+	
+	<property required="true" name="email" type="email" defaultvalue="" calculatedvalue="" class="inputField">
+		<hint>Please Enter the Email</hint>	
+		<label>Email</label>
+	</property>
+	
+	<property  required="true" name="birthDate" type="date" defaultvalue="" calculatedvalue="" class="inputField">
+		<hint>Birth date</hint>
+		<label>Birth Date</label>
+	</property>
+	
+	<property required="true" name="phoneNumber" type="text" defaultvalue="" calculatedvalue="" class="inputField">
+		<hint>Enter the phone number</hint>
+		<label>Phone Number</label>
+	</property>
+
+	<property name="submit" type="submit" defaultvalue="submit" calculatedvalue="" class="submitBtn">
+	</property>
+</identityform>

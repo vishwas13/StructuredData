@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form id="identityCreateForm" action="identityAction" method="post">
+
+	<label>
+		<h2 for="displayName">Display Name</h2>
+	</label>
+	<br />
+	<input id="displayName" type="text" name="displayName" required="true"
+		value="" placeholder="Please type here the Display Name"
+		data-calculation="" class="inputField" />
+	<br />
+
+	<label>
+		<h2 for="email">Email</h2>
+	</label>
+	<br />
+	<input id="email" type="email" name="email" required="true"
+		value="" placeholder="Please Enter the Email" data-calculation=""
+		class="inputField" />
+	<br />
+
+	<label>
+		<h2 for="birthDate">Birth Date</h2>
+	</label>
+	<br />
+	<input id="birthDate" type="date" name="birthDate" required="true"
+		value="" placeholder="Birth date" data-calculation="" class="inputField" />
+	<br />
+
+	<label>
+		<h2 for="phoneNumber">Phone Number</h2>
+	</label>
+	<br />
+	<input id="phoneNumber" type="text" name="phoneNumber" required="true"
+		value="" placeholder="Enter the phone number" data-calculation=""
+		class="inputField" />
+	<br />
+
+	<label>
+		<h2 for="submit" />
+	</label>
+	<br />
+	<input id="submit" type="submit" name="submit" required="" value="submit"
+		placeholder="" data-calculation="" class="submitBtn" />
+	<br />
+</form>
